@@ -1,3 +1,21 @@
+## [3.0.1](https://github.com/sws2apps/firebase-deployment/compare/v3.0.0...v3.0.1) (2022-09-24)
+
+
+### Bug Fixes
+
+* **action:** add github action path ([8ba8508](https://github.com/sws2apps/firebase-deployment/commit/8ba8508447f5096b5811adbebac9dd117c9e799f))
+
+# [3.0.0](https://github.com/sws2apps/firebase-deployment/compare/v2.2.2...v3.0.0) (2022-09-23)
+
+### Features
+
+* **action:** authentication only using workload identity federation ([9441792](https://github.com/sws2apps/firebase-deployment/commit/9441792cef2bf6767126a24e87282f5234f6bec1))
+
+
+### BREAKING CHANGES
+
+* With this new release, we do now support the keyless authentication to Google Cloud. The two new inputs for this authentication method are mandatory to run this action. Check the [Setting up Workload Identity Federation](https://github.com/google-github-actions/auth#setting-up-workload-identity-federation) guide for the needed setup.
+
 ## [2.2.2](https://github.com/sws2apps/firebase-deployment/compare/v2.2.1...v2.2.2) (2022-09-23)
 
 
